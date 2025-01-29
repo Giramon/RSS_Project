@@ -1,5 +1,5 @@
 <?php
-
+/*
 // All
 $message = "Привет! Это автопостинг сообщения.";
 $imagePath = "img/UtcNPjnOTDA.jpg";
