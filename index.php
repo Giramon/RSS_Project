@@ -18,7 +18,7 @@ if (in_array($MODE, $available_endpoints_array)) {
         case 'create_post_tg':
             require_once ('modules/post_tg.php');
             
-            // $output=sendChatMessage($web_hook_server_url,'im.message.add',$message_params); добавить метод на ТГ
+            // $output=sendChatMessage($web_hook_server_url,'im.message.add',$message_params); добавить метод на Тg
             echo "сюда положить TG";
             break;
         case 'create_post_vk_tg':

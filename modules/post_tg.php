@@ -1,7 +1,7 @@
 <?php
 
 
-// сделать загрзуку всего
+// сделать загрзуку всегоo
 if (isset($_GET['message_tg'])) {
     $message_tg = urldecode($_GET['message_tg']); 
 }
