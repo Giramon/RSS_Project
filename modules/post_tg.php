@@ -1,9 +1,9 @@
 <?php
 
 
-// сделать загрзуку всегоo
-if (isset($_GET['message_tg'])) {
-    $message_tg = urldecode($_GET['message_tg']); 
+// сделать загрзуку всегоo ff
+if (isset($_GET['message'])) {
+    $message = urldecode($_GET['message']); 
 }
 
 
@@ -13,7 +13,6 @@ $chatId = "-1002255910020";
 
 
 // params
-$message = $message_tg;
 $imagePath = "img/UtcNPjnOTDA.jpg";
 $link = 'https://www.iqmac.ru/img/iPad2018/karandash/3/4.jpg';
 
@@ -43,8 +42,8 @@ if($message == null) {
     exit;
 }
 else {
-    $responsePhoto = sendPhotoWithCaption($chatId, $imagePath, $message_tg . "\n" . $link, $botToken);
-
+    $responsePhoto = sendPhotoWithCaption($chatId, $imagePath, $message . "\n" . $link, $botToken);
+    print($responsePhoto);
 }
 
 

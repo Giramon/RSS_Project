@@ -1,6 +1,6 @@
 <?php
 
-global $available_endpoints_array , $message_tg;
+global $available_endpoints_array , $message;
 
 $error = 0;
 
