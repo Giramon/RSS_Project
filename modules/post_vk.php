@@ -1,7 +1,7 @@
 <?php
 
-$groupId = "229123818";
-$accessTokenPeople= "vk1.a._ceYVMNlA9OWSbcq6i1fGHYgTPvXkE1crhLyVmsDUfSL93F0_MuBcM70Xw0pwS6Lw663SQnqKKuVFeylchAEPvzsSAFxblAVTcVumxDsshiVl0c2VSPTsn80d4F14EuMG_MPpxu25_5mETP7LYhSxCGYE46cuncpnTVhzZjQ0mtqik7CF3Hi6khpHZaFnagx9dMKMWtmthbUIArreMP7ig";
+$groupId = "-";
+$accessTokenPeople= "-";
 
 // upload in VK imgg
 $upload_url_response = file_get_contents("https://api.vk.com/method/photos.getWallUploadServer?access_token={$accessTokenPeople}&v=5.131");
