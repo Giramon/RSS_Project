@@ -8,8 +8,8 @@ if (isset($_GET['message'])) {
 
 
 // bot
-$botToken = "7916625696:AAEW0Pi5t4X0hBCRD-x4S6AQ8hgwxPP188o";
-$chatId = "-1002255910020";
+$botToken = "-";
+$chatId = "-;
 
 
 // params
